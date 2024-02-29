@@ -1,0 +1,84 @@
+@font-face
+{
+    src:url('oswald.ttf');
+    font-family:oswald;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    width: 100%;
+    
+}
+
+.sub-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: oswald; 
+}
+
+.p-div
+{
+    margin-top: 20px;
+    height: 300px;
+    width: 45%;
+}
+.p1
+{
+    
+    margin-bottom: 10px;
+    font-family: oswald;
+    
+}
+
+.p2
+{
+    font-family: oswald;
+}
+
+img
+{
+    width: 45%;
+    height: 300px;
+}
+
+
+@media screen and (max-width:500px)
+{
+    .sub-container
+    {
+        display: block;
+        width: 100%;
+    }
+    
+    .p-div
+    {
+        margin-bottom: 20px;
+        width: 100%;
+        
+    }
+    
+    img
+    {
+        width: 100%;
+    }
+ /*    img
+    {
+        display: flex;
+        order: 2;
+    } */
+}
